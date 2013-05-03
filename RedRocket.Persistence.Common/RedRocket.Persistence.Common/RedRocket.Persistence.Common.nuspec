@@ -17,11 +17,13 @@ using this tokenized nuspec file.
     <version>$version$</version>
 	<authors>Tyler Garlick</authors>
     <owners>RedRocket, Tyler Garlick</owners>
-    <id>$id$</id>
+    <id>RedRocket.Persistence.Common</id>
     <title>RedRocket Persistence Framework | Common</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common Framework Functionality</description>
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Persistence.Common</projectUrl>
   </metadata>
-  <files />
+  <files>
+	<file src="RedRocket.Persistence.Common.dll" target="lib\net45" />
+  </files>
 </package>
