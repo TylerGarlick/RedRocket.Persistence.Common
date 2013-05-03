@@ -24,6 +24,6 @@ using this tokenized nuspec file.
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Persistence.Common</projectUrl>
   </metadata>
   <files>
-	<file src="RedRocket.Persistence.Common.dll" target="lib\net45" />
+	<file src="bin\Release\RedRocket.Persistence.Common.dll" target="lib\net45" />
   </files>
 </package>
