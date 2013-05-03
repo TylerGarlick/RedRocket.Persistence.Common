@@ -15,7 +15,7 @@ using this tokenized nuspec file.
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <version>$version$</version>
-	<authors>Tyler Garlick</authors>
+    <authors>Tyler Garlick</authors>
     <owners>RedRocket, Tyler Garlick</owners>
     <id>RedRocket.Persistence.Common</id>
     <title>RedRocket Persistence Framework | Common</title>
@@ -24,6 +24,6 @@ using this tokenized nuspec file.
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Persistence.Common</projectUrl>
   </metadata>
   <files>
-	<file src="bin\Release\RedRocket.Persistence.Common.dll" target="lib\net45" />
+    <file src="bin\Release\RedRocket.Persistence.Common.dll" target="lib\net45" />
   </files>
 </package>
