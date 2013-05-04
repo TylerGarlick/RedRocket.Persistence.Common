@@ -20,7 +20,8 @@ using this tokenized nuspec file.
     <id>RedRocket.Persistence.Common</id>
     <title>RedRocket Persistence Framework | Common</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Common Framework Functionality</description>
+    <tags>RedRocket Framework, RedRocket, Entity Framework, Generic Repository, Persistence, FlitBit</tags>
+    <description>Common elements of the RedRocket Persistence Framework</description>
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Persistence.Common</projectUrl>
     <dependencies>
       <dependency id="RedRocket.Utilities.Core"/>
