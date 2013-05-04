@@ -3,7 +3,7 @@ using RedRocket.Utilities.Core.Validation;
 
 namespace RedRocket.Persistence.Common
 {
-    public interface IRepository<T> : IReadOnlyRepository<T> where T : class
+    public partial interface IRepository<T> : IReadOnlyRepository<T> where T : class
     {
         T Add(T entity);
         T Update(T entity);
