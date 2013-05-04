@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using RedRocket.Persistence.Common.Validation;
+using RedRocket.Utilities.Core.Validation;
 
 namespace RedRocket.Persistence.Common
 {
@@ -9,6 +9,6 @@ namespace RedRocket.Persistence.Common
         T Update(T entity);
         void Delete(T entity);
         
-        IEnumerable<PersistenceValidationError> Validate(T entity);
+        IEnumerable<ObjectValidationError> Validate(T entity);
     }
 }
