@@ -15,15 +15,18 @@ using this tokenized nuspec file.
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <version>$version$</version>
-	<authors>Tyler Garlick</authors>
+    <authors>Tyler Garlick</authors>
     <owners>RedRocket, Tyler Garlick</owners>
     <id>RedRocket.Persistence.Common</id>
     <title>RedRocket Persistence Framework | Common</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common Framework Functionality</description>
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Persistence.Common</projectUrl>
+    <dependencies>
+      <dependency id="RedRocket.Utilities.Core"/>
+    </dependencies>
   </metadata>
   <files>
-	<file src="bin\Release\RedRocket.Persistence.Common.dll" target="lib\net45" />
+    <file src="bin\Release\RedRocket.Persistence.Common.dll" target="lib\net45" />
   </files>
 </package>
