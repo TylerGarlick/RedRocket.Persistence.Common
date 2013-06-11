@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace RedRocket.Persistence.Common
 {
-    public interface IReadOnlyRepository<T> where T : class
+    public partial interface IReadOnlyRepository<T> where T : class
     {
         IQueryable<T> All();
         IQueryable<T> Query(Func<T, bool> predicate);

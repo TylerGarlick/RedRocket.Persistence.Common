@@ -22,6 +22,9 @@ using this tokenized nuspec file.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common Framework Functionality</description>
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Persistence.Common</projectUrl>
+    <dependencies>
+      <dependency id="RedRocket.Utilities.Core"/>
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\RedRocket.Persistence.Common.dll" target="lib\net45" />
