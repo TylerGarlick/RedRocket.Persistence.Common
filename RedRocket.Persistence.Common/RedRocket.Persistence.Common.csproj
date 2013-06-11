@@ -14,7 +14,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuSpecFile>RedRocket.Persistence.Common.nuspec</NuSpecFile>
-    <BuildPackage>true</BuildPackage>
+    <BuildPackage>false</BuildPackage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +39,11 @@
     </Reference>
     <Reference Include="RedRocket.Utilities.Core">
       <HintPath>..\packages\RedRocket.Utilities.Core.1.0.5\lib\net45\RedRocket.Utilities.Core.dll</HintPath>
+      <HintPath>packages\JetBrains.Annotations.7.0\lib\net45\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="RedRocket.Utilities.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\RedRocket.Utilities.Core.1.0.0.36\lib\net45\RedRocket.Utilities.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
